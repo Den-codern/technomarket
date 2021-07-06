@@ -1,0 +1,100 @@
+.company {
+    margin-bottom: 86px;
+}
+
+.company__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company__about {
+    margin-right: 80px;
+}
+
+.company__about-title {
+    text-transform: uppercase;
+    font-family: 'Cuprum';
+    font-size: 30px;
+    margin-bottom: 35px;
+
+}
+
+.company__about-text {
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    max-width: 520px;
+    margin-bottom: 30px;
+    font-weight: 700;
+
+    p {
+        &:not(:last-child) {
+            margin-bottom: 35px;
+        }
+    }
+}
+
+
+
+.company__about-transport {
+    max-width: 300;
+    li {
+        display: block;
+
+        &:not(:last-child) {
+            margin-bottom: 25px;
+        }
+
+        a {
+            font-size: 18px;
+            color: #000;
+            position: relative;
+            padding-left: 36px;
+
+            &::after {
+                position: absolute;
+                top: 9px;
+                left: 0;
+                content: "";
+                width: 25px;
+                height: 2px;
+                background-color: $color-3;
+            }
+        }
+    }
+}
+
+.company__about-btn {
+    margin-top: 35px;
+    text-transform: uppercase;
+    background-color: $color-3;
+    border-radius: 3px;
+    color: #fff;
+    width: 220px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    font-family: "Cuprum";
+    font-size: 14px;
+    border: none;
+}
+
+.company__contacts-title {
+    text-transform: uppercase;
+    font-family: 'Cuprum';
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+
+
+.company__contacts-subtitle {
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 38px;
+    
+}
+
+.company__contacts-map {
+    width:440px;
+}

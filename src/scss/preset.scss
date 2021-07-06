@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+li,
+
+a {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}

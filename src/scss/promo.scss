@@ -1,0 +1,72 @@
+.promo {
+    font-family: "Cuprum";
+    margin-bottom: 53px;
+}
+
+
+.promo__item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    padding:22px 25px;
+    margin-bottom: 10px;
+
+    &.materials {
+        background-color: #ffbf47;
+    }
+
+    &.instruments {
+        background-color: #3bbce3;
+    }
+
+    &.machines {
+        background-color: #dc91d8;
+    }
+
+    &.discount {
+        background-color: #8ed78f;
+        margin-right: 0;
+    }
+
+    &.delivery {
+        background-color: #ffc047;
+        margin: 0;
+    }
+}
+
+.promo__slider.promo__item {
+    padding: 0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.promo__item-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.promo__item-btn {
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 0;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgba(#000000, .7);
+    width: 135px;
+    text-align: center;
+}
+
+.promo__item-icon {
+    margin-left: 37px;
+}
+
+.promo__slider {
+    position: relative;
+}
